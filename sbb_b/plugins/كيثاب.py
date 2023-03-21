@@ -24,7 +24,7 @@ GIT_TEMP_DIR = "./temp/"
 
 
 @sbb_b.ar_cmd(
-    pattern="تيبثون$",
+    pattern="الخليفه$",
     command=("repo", plugin_category),
     info={
         "header": "Source code link of sbb_b",
@@ -34,11 +34,11 @@ GIT_TEMP_DIR = "./temp/"
     },
 )
 async def source(e):
-    "سورس تيبثون"
+    "سورس الخليفه"
     await edit_or_reply(
         e,
-        "اضغط [هنا](t.me/Tepthon) لفتح قناة السورس\
-        \nاضغط [هنا](t.me/Tepthon_Help) كروب الدعم",
+        "اضغط [هنا](t.me/aaaalqp) لفتح قناة السورس\
+        \nاضغط [هنا](t.me/so_rs_lk) كروب الدعم",
     )
 
 
