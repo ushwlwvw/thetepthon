@@ -1,4 +1,4 @@
-# by: t.me/Tepthon  ~ t.me/PPF22
+6# by: t.me/Tepthon  ~ t.me/PPF22
 
 import asyncio
 import random
@@ -124,7 +124,7 @@ async def _(event):
 الامر:  `.حالة التثبيت`
 • لمعرفة عدد المحاولات للصيد
 
-@Tepthon  - channle userbot 
+@aaaalqp  - channle userbot 
 
 """
     )
@@ -143,8 +143,8 @@ async def hunterusername(event):
         try:
             ch = await sbb_b(
                 functions.channels.CreateChannelRequest(
-                    title="Tepthon HUNTER - صيد تيبثون",
-                    about="This channel to hunt username by - @Tepthon ",
+                    title="Tepthon HUNTER - صيد الخليفه ",
+                    about="This channel to hunt username by - @aaaalqp ",
                 )
             )
             ch = ch.updates[1].channel_id
@@ -213,8 +213,8 @@ async def _(event):
         try:
             ch = await sbb_b(
                 functions.channels.CreateChannelRequest(
-                    title="Tepthon HUNTER - صيد تيبثون",
-                    about="This channel to hunt username by - @Tepthon ",
+                    title="Tepthon HUNTER - صيد الخليفه ",
+                    about="This channel to hunt username by - @aaaalqp ",
                 )
             )
             ch = ch.updates[1].channel_id
@@ -238,7 +238,7 @@ async def _(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"- Done : @{username} !\n- By : @PPF22 - @Tepthon !\n- Hunting Log {trys2[0]}",
+                    f"- Done : @{username} !\n- By : @H_M_Dr - @aaaalqp !\n- Hunting Log {trys2[0]}",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
